@@ -162,3 +162,4 @@ C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvi
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.CopyComplete
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.dll
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.pdb
+C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.AssemblyReference.cache
