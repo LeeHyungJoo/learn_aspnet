@@ -158,7 +158,6 @@ C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\ko\System.Web.W
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\ko\System.Web.Webpages.Razor.resources.dll
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\ko\System.Web.Helpers.resources.dll
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\ko\System.Web.Mvc.resources.dll
-C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.AssemblyReference.cache
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.CoreCompileInputs.cache
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.CopyComplete
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.dll
