@@ -12,4 +12,5 @@ namespace PartyInvites.Models
         public string Phone { get; set; }
         public bool? WillAttend { get; set; }
     }
+
 }
