@@ -10,6 +10,7 @@ namespace PartyInvites.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+        //Default Method
         public ViewResult Index()
         {
             ViewBag.Greeting = DateTime.Now.Hour < 12 ? "Morning" : "Afternoon";
@@ -33,6 +34,12 @@ namespace PartyInvites.Controllers
             {
                 return View();
             }
+        }
+
+        public string TestParam(string name , int num = 1)
+        {
+            return HttpUtility.HtmlEncode("Hello, " + name + " [num : " + num + "]");
+            //return HttpUtility.HtmlEncode("Hello");
         }
     }
 }
