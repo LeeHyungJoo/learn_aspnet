@@ -4,11 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using PartyInvites.Models;
-
 namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
     {
+        private GuestResponseDBContext db = new GuestResponseDBContext();
+
+
         // GET: Home
         //Default Method
         public ViewResult Index()
@@ -28,7 +30,18 @@ namespace PartyInvites.Controllers
         {
             if(ModelState.IsValid)
             {
-                return View("Thanks", guestResponse);
+                try
+                {
+                    db.guestResponses.Add(guestResponse);
+                    db.SaveChanges();
+                    
+                    return View("Thanks", guestResponse);
+                }
+                catch (Exception e)
+                {
+                    ModelState.AddModelError("Name", e.Message.ToString());
+                    return View(guestResponse);
+                }
             }
             else
             {
@@ -40,6 +53,11 @@ namespace PartyInvites.Controllers
         {
             return HttpUtility.HtmlEncode("Hello, " + name + " [num : " + num + "]");
             //return HttpUtility.HtmlEncode("Hello");
+        }
+
+        public ViewResult ShowDBPage()
+        {
+            return View("DBPage", db.guestResponses);
         }
     }
 }

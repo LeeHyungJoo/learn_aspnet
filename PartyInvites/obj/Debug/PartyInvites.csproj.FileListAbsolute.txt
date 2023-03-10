@@ -162,4 +162,8 @@ C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvi
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.CopyComplete
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.dll
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.pdb
+C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\EntityFramework.dll
+C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\EntityFramework.SqlServer.dll
+C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\EntityFramework.xml
+C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\bin\EntityFramework.SqlServer.xml
 C:\Users\prism9411\Documents\GitHub\Lecture_ASP\PartyInvites\obj\Debug\PartyInvites.csproj.AssemblyReference.cache
